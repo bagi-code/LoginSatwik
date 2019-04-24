@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#E8E9E8"
-    tools:context=".MainActivity">
+    tools:context=".LoginActivity">
 
     <RelativeLayout
         android:id="@+id/rl_input"
@@ -63,6 +63,7 @@
         android:layout_height="wrap_content" />
 
     <Button
+        android:id="@+id/btnLogin"
         android:layout_marginTop="40dp"
         android:layout_above="@id/tv_title"
         android:text="Login"
