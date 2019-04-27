@@ -33,6 +33,7 @@
             android:layout_height="0.5dp"/>
 
         <EditText
+            android:id="@+id/et_password"
             android:paddingLeft="20dp"
             android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
             android:drawablePadding="20dp"
@@ -44,6 +45,7 @@
     </RelativeLayout>
 
     <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_login"
         android:layout_marginRight="40dp"
         android:layout_centerVertical="true"
         android:layout_alignParentRight="true"
